@@ -13,31 +13,41 @@ const backgroundImages = [
   {
     name: "World Map",
     material: new THREE.MeshBasicMaterial({
-      map: threejsLoader.load("./image/worldmap.jpg"),
+      map: threejsLoader.load(
+        "http://52.73.210.69:80/images/9d24372e67aebe4db3df48f72c79a47aleWPD7dIo+"
+      ),
     }),
   },
   {
     name: "Spring",
     material: new THREE.MeshBasicMaterial({
-      map: threejsLoader.load("./image/spring.jpg"),
+      map: threejsLoader.load(
+        "http://52.73.210.69:80/images/9d24372e67aebe4db3df48f72c79a47aksZET-Qui+"
+      ),
     }),
   },
   {
     name: "Summer",
     material: new THREE.MeshBasicMaterial({
-      map: threejsLoader.load("./image/summer.jpg"),
+      map: threejsLoader.load(
+        "http://52.73.210.69:80/images/9d24372e67aebe4db3df48f72c79a47aQonIpfk-u+"
+      ),
     }),
   },
   {
     name: "Autumn",
     material: new THREE.MeshBasicMaterial({
-      map: threejsLoader.load("./image/autumn.jpg"),
+      map: threejsLoader.load(
+        "http://52.73.210.69:80/images/9d24372e67aebe4db3df48f72c79a47aQonIpfk-u+"
+      ),
     }),
   },
   {
     name: "Winter",
     material: new THREE.MeshBasicMaterial({
-      map: threejsLoader.load("./image/winter.jpg"),
+      map: threejsLoader.load(
+        "http://52.73.210.69:80/images/9d24372e67aebe4db3df48f72c79a47al0CApRD7i+"
+      ),
     }),
   },
 ];
