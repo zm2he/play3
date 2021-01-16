@@ -12,6 +12,7 @@
 import * as THREE from "three";
 
 const objects = [
+  { name: "Sphere", geometry: () => new THREE.SphereBufferGeometry(7, 50, 50) },
   { name: "Box", geometry: () => new THREE.BoxBufferGeometry(8, 8, 8) },
   { name: "Circle", geometry: () => new THREE.CircleBufferGeometry(7, 50) },
   { name: "Cone", geometry: () => new THREE.ConeBufferGeometry(6, 8, 50) },
@@ -79,7 +80,6 @@ const objects = [
   },
   { name: "Plane", geometry: () => new THREE.PlaneBufferGeometry(9, 9) },
   { name: "Ring", geometry: () => new THREE.RingBufferGeometry(2, 7, 50) },
-  { name: "Sphere", geometry: () => new THREE.SphereBufferGeometry(7, 50, 50) },
   {
     name: "Tetrahedron",
     geometry: () => new THREE.TetrahedronBufferGeometry(7),
